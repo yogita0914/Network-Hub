@@ -3,11 +3,8 @@
   padding: 100px 7%;
 
   background:
-    linear-gradient(
-      rgba(1, 54, 73, 0.35),
-      rgba(59, 59, 59, 0.25)
-    ),
-    url('https://www.openproject.org/assets/images/contact/contact-hero-26dc4a79.png');
+    linear-gradient(rgba(1, 54, 73, 0.35), rgba(59, 59, 59, 0.25)),
+    url("https://www.openproject.org/assets/images/contact/contact-hero-26dc4a79.png");
 
   background-size: cover;
   background-position: center;
@@ -22,7 +19,7 @@
   font-size: 3rem;
   margin-bottom: 20px;
 
-  color: #00AEEF;
+  color: #00aeef;
 
   text-shadow: 0 0 20px rgba(0, 174, 239, 0.5);
 }
@@ -62,7 +59,7 @@
 .contact-card:hover {
   transform: translateY(-12px) scale(1.03);
 
-  border-color: #00AEEF;
+  border-color: #00aeef;
 
   box-shadow:
     0 0 25px rgba(0, 174, 239, 0.4),
@@ -72,7 +69,7 @@
 .contact-icon {
   font-size: 2.8rem;
 
-  color: #00AEEF;
+  color: #00aeef;
 
   margin-bottom: 20px;
 }
@@ -97,7 +94,7 @@
 }
 
 .contact-card a:hover {
-  color: #00AEEF;
+  color: #00aeef;
 }
 
 /* TABLET */

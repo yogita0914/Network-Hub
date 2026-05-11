@@ -3,10 +3,8 @@
   padding: 100px 7%;
 
   background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.60)
-    ),
-    url('https://static.vecteezy.com/system/resources/thumbnails/038/535/076/small/ai-generated-empty-dark-workspace-tabletop-modern-design-with-copy-space-and-decor-photo.jpg');
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("https://static.vecteezy.com/system/resources/thumbnails/038/535/076/small/ai-generated-empty-dark-workspace-tabletop-modern-design-with-copy-space-and-decor-photo.jpg");
 
   background-size: cover;
   background-position: center;
@@ -22,7 +20,7 @@
 .services h2 {
   font-size: 3rem;
   margin-bottom: 60px;
-  color: #00AEEF;
+  color: #00aeef;
   text-shadow: 0 0 20px rgba(0, 174, 239, 0.5);
 }
 
@@ -58,13 +56,13 @@
 
 .service-card:hover {
   transform: translateY(-10px);
-  border-color: #00AEEF;
+  border-color: #00aeef;
   box-shadow: 0 0 25px rgba(0, 174, 239, 0.5);
 }
 
 .service-icon {
   font-size: 3rem;
-  color: #00AEEF;
+  color: #00aeef;
   margin-bottom: 25px;
 }
 
@@ -93,8 +91,7 @@
 @media (max-width: 768px) {
   .services {
     padding: 70px 20px;
-        background-attachment: scroll;
-
+    background-attachment: scroll;
   }
 
   .services h2 {

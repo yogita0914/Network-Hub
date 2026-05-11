@@ -1,0 +1,166 @@
+.footer {
+  width: 100%;
+
+  background: linear-gradient(rgba(5, 5, 5, 0.96), rgba(5, 5, 5, 0.98));
+
+  color: white;
+
+  padding-top: 70px;
+
+  border-top: 1px solid rgba(0, 174, 239, 0.2);
+}
+
+.footer-top {
+  width: 100%;
+
+  padding: 0 7% 50px;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 40px;
+}
+
+.footer-logo h2 {
+  font-size: 2rem;
+
+  margin-bottom: 18px;
+
+  background: linear-gradient(130deg, #028bda, #c0c0c0);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+}
+
+.footer-logo p {
+  color: #d1d1d1;
+
+  line-height: 1.8;
+
+  font-size: 0.95rem;
+}
+
+.footer-links h3,
+.footer-contact h3,
+.footer-social h3 {
+  margin-bottom: 20px;
+
+  color: #00aeef;
+
+  font-size: 1.3rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links a {
+  text-decoration: none;
+
+  color: #d1d1d1;
+
+  margin-bottom: 12px;
+
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #00aeef;
+
+  transform: translateX(5px);
+}
+
+.footer-contact p {
+  color: #d1d1d1;
+
+  margin-bottom: 12px;
+
+  line-height: 1.7;
+}
+
+.social-icons {
+  display: flex;
+
+  gap: 15px;
+}
+
+.social-icons a {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  text-decoration: none;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  color: white;
+
+  font-size: 1rem;
+
+  transition: 0.4s;
+}
+
+.social-icons a:hover {
+  background: linear-gradient(135deg, #028bda, #c0c0c0);
+
+  color: black;
+
+  transform: translateY(-5px);
+}
+
+.footer-bottom {
+  width: 100%;
+
+  text-align: center;
+
+  padding: 20px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-bottom p {
+  color: #bdbdbd;
+
+  font-size: 0.9rem;
+}
+
+/* TABLET */
+
+@media (max-width: 992px) {
+  .footer-top {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+
+    padding: 0 20px 40px;
+  }
+
+  .footer-logo h2 {
+    font-size: 1.8rem;
+  }
+
+  .footer-links h3,
+  .footer-contact h3,
+  .footer-social h3 {
+    font-size: 1.2rem;
+  }
+
+  .footer-bottom p {
+    font-size: 0.85rem;
+  }
+}

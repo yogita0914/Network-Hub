@@ -1,11 +1,9 @@
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.75),
-      rgba(0, 0, 0, 0.85)
-    ),
-    url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop')
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85)),
+    url("https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop")
       center/cover no-repeat;
 
   display: flex;
@@ -20,12 +18,11 @@
 }
 
 .hero-content h3 {
-  color: #00AEEF;
+  color: #00aeef;
   letter-spacing: 4px;
   margin-bottom: 15px;
   font-size: 1.3rem;
 }
-
 
 .hero-content h1 {
   font-size: 5rem;
@@ -60,13 +57,13 @@
 }
 
 .service-btn {
-  background: linear-gradient(135deg, #00AEEF, #C0C0C0);
+  background: linear-gradient(135deg, #00aeef, #c0c0c0);
   color: black;
 }
 
 .contact-btn {
   background: transparent;
-  border: 2px solid #00AEEF !important;
+  border: 2px solid #00aeef !important;
   color: white;
 }
 

@@ -22,7 +22,7 @@
   height: 55px;
   object-fit: cover;
   border-radius: 50%;
-  border: #00AEEF;
+  border: #00aeef;
   box-shadow: 0 0 20px rgba(0, 174, 239, 0.6);
   transition: 0.4s;
 }
@@ -36,7 +36,7 @@
   font-weight: 600;
   letter-spacing: 1px;
 
-  background: linear-gradient(130deg, #028bda, #C0C0C0);
+  background: linear-gradient(130deg, #028bda, #c0c0c0);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -58,17 +58,17 @@
 }
 
 .nav-links a:hover {
-  color: #00AEEF;
+  color: #00aeef;
 }
 
 .nav-links a::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -5px;
   width: 0%;
   height: 2px;
-  background: #00AEEF;
+  background: #00aeef;
   transition: 0.3s;
 }
 
@@ -79,7 +79,7 @@
 .nav-links button {
   padding: 10px 20px;
   border: none;
-  background: linear-gradient(135deg, #028bda, #C0C0C0);
+  background: linear-gradient(135deg, #028bda, #c0c0c0);
   color: black;
   font-weight: 600;
   border-radius: 8px;
@@ -104,10 +104,9 @@
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
-     font-size: 1.1rem;
-
+    font-size: 1.1rem;
   }
-  .navbar{
+  .navbar {
     padding: 10px 4%;
   }
 
@@ -132,11 +131,7 @@
 
     text-decoration: none;
 
-    background: linear-gradient(
-      130deg,
-      #028bda,
-      #C0C0C0
-    );
+    background: linear-gradient(130deg, #028bda, #c0c0c0);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

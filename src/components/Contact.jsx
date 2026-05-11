@@ -1,13 +1,13 @@
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
 
 import {
   FaPhoneAlt,
   FaEnvelope,
   FaWhatsapp,
   FaMapMarkerAlt,
-} from 'react-icons/fa'
+} from "react-icons/fa";
 
-import './Contact.css'
+import "./Contact.css";
 
 function Contact() {
   return (
@@ -21,12 +21,10 @@ function Contact() {
         <h2>Contact Us</h2>
 
         <p className="contact-text">
-          Get in touch with us for Laptop, Desktop,
-          Printer and CCTV services.
+          Get in touch with us for Laptop, Desktop, Printer and CCTV services.
         </p>
 
         <div className="contact-container">
-
           <div className="contact-card">
             <FaPhoneAlt className="contact-icon" />
 
@@ -48,10 +46,7 @@ function Contact() {
 
             <h3>WhatsApp</h3>
 
-            <a
-              href="https://wa.me/917454949416"
-              target="_blank"
-            >
+            <a href="https://wa.me/917454949416" target="_blank">
               Chat Now
             </a>
           </div>
@@ -63,11 +58,10 @@ function Contact() {
 
             <p>DD Plaza, Mathura</p>
           </div>
-
         </div>
       </motion.div>
     </section>
-  )
+  );
 }
 
 export default Contact;

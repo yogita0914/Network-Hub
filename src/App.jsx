@@ -1,9 +1,9 @@
-import './App.css'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Services from './components/Services'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Contact />
       <Footer />
     </>
-  )
+  );
 }
 
 export default App;

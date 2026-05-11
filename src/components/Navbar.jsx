@@ -1,11 +1,11 @@
-import { useState } from 'react'
-import { motion } from 'framer-motion'
-import { FaBars, FaTimes } from 'react-icons/fa'
-import './Navbar.css'
-import logo from '../assets/logo.jpeg'
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { FaBars, FaTimes } from "react-icons/fa";
+import "./Navbar.css";
+import logo from "../assets/logo.jpeg";
 
 function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <motion.nav
@@ -19,9 +19,13 @@ function Navbar() {
         <h1>Network Hub</h1>
       </div>
 
-      <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
-        <a className="home"href="#home">Home</a>
-        <a className="home" href="#services">Services</a>
+      <div className={`nav-links ${menuOpen ? "active" : ""}`}>
+        <a className="home" href="#home">
+          Home
+        </a>
+        <a className="home" href="#services">
+          Services
+        </a>
         {/* <a href="#contact">Contact</a> */}
 
         <a href="https://wa.me/917454949416">
@@ -29,14 +33,11 @@ function Navbar() {
         </a>
       </div>
 
-      <div
-        className="menu-icon"
-        onClick={() => setMenuOpen(!menuOpen)}
-      >
+      <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
         {menuOpen ? <FaTimes /> : <FaBars />}
       </div>
     </motion.nav>
-  )
+  );
 }
 
 export default Navbar;
