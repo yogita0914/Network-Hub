@@ -1,0 +1,141 @@
+.contact {
+  width: 100%;
+  padding: 100px 7%;
+
+  background:
+    linear-gradient(
+      rgba(1, 54, 73, 0.35),
+      rgba(59, 59, 59, 0.25)
+    ),
+    url('https://www.openproject.org/assets/images/contact/contact-hero-26dc4a79.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: white;
+  text-align: center;
+}
+
+.contact-content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+
+  color: #00AEEF;
+
+  text-shadow: 0 0 20px rgba(0, 174, 239, 0.5);
+}
+
+.contact-text {
+  color: #d1d1d1;
+
+  max-width: 700px;
+  margin: auto;
+
+  line-height: 1.8;
+  margin-bottom: 60px;
+
+  font-size: 1rem;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.contact-card {
+  background: rgba(17, 17, 17, 0.7);
+
+  backdrop-filter: blur(12px);
+
+  padding: 40px 25px;
+
+  border-radius: 20px;
+
+  border: 1px solid rgba(0, 174, 239, 0.25);
+
+  transition: 0.4s;
+}
+
+.contact-card:hover {
+  transform: translateY(-12px) scale(1.03);
+
+  border-color: #00AEEF;
+
+  box-shadow:
+    0 0 25px rgba(0, 174, 239, 0.4),
+    0 0 50px rgba(0, 174, 239, 0.2);
+}
+
+.contact-icon {
+  font-size: 2.8rem;
+
+  color: #00AEEF;
+
+  margin-bottom: 20px;
+}
+
+.contact-card h3 {
+  margin-bottom: 12px;
+
+  font-size: 1.4rem;
+
+  color: white;
+}
+
+.contact-card p,
+.contact-card a {
+  color: #d1d1d1;
+
+  text-decoration: none;
+
+  line-height: 1.7;
+
+  font-size: 0.95rem;
+}
+
+.contact-card a:hover {
+  color: #00AEEF;
+}
+
+/* TABLET */
+
+@media (max-width: 992px) {
+  .contact-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 70px 20px;
+
+    background-attachment: scroll;
+  }
+
+  .contact-content h2 {
+    font-size: 2.3rem;
+  }
+
+  .contact-text {
+    font-size: 0.95rem;
+
+    margin-bottom: 40px;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-card {
+    padding: 35px 20px;
+  }
+
+  .contact-icon {
+    font-size: 2.3rem;
+  }
+}
