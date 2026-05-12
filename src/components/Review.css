@@ -1,0 +1,170 @@
+.review-section {
+  width: 100%;
+
+  padding: 100px 7%;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.92)),
+    url("https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=2070&auto=format&fit=crop");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  text-align: center;
+
+  color: white;
+}
+
+.review-section h2 {
+  font-size: 3rem;
+
+  margin-bottom: 18px;
+
+  background: linear-gradient(135deg, #00aeef, #c0c0c0);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+}
+
+.review-subtitle {
+  max-width: 700px;
+
+  margin: auto;
+
+  color: #d1d1d1;
+
+  line-height: 1.8;
+
+  margin-bottom: 60px;
+}
+
+.review-container {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+}
+
+.review-card {
+  position: relative;
+
+  padding: 35px 28px;
+
+  border-radius: 22px;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  transition: 0.4s;
+}
+
+.review-card:hover {
+  transform: translateY(-10px);
+
+  border-color: #00aeef;
+
+  box-shadow: 0 0 25px rgba(0, 174, 239, 0.2);
+}
+
+.quote-icon {
+  position: absolute;
+
+  top: 25px;
+  right: 25px;
+
+  font-size: 2rem;
+
+  color: rgba(0, 174, 239, 0.25);
+}
+
+.review-stars {
+  color: gold;
+
+  margin-bottom: 18px;
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 5px;
+}
+
+.review-text {
+  color: #d8d8d8;
+
+  line-height: 1.8;
+
+  font-size: 0.95rem;
+
+  margin-bottom: 28px;
+}
+
+.review-user {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 15px;
+}
+
+.review-user img {
+  width: 65px;
+  height: 65px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  border: 2px solid #00aeef;
+}
+
+.review-user h4 {
+  color: white;
+
+  margin-bottom: 4px;
+}
+
+.review-user span {
+  color: #cfcfcf;
+
+  font-size: 0.9rem;
+}
+
+/* TABLET */
+
+@media (max-width: 992px) {
+  .review-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .review-section {
+    padding: 70px 20px;
+
+    background-attachment: scroll;
+  }
+
+  .review-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .review-container {
+    grid-template-columns: 1fr;
+  }
+
+  .review-card {
+    padding: 30px 22px;
+  }
+}

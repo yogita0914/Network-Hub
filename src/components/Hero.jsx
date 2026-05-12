@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
+
 import "./Hero.css";
 
 function Hero() {
@@ -15,15 +16,24 @@ function Hero() {
 
         <h1>
           <TypeAnimation
-            sequence={["Network Hub", 2000, "", 500]}
+            sequence={[
+              "Network Hub",
+              2000,
+              "Laptop & Desktop Service",
+              2000,
+              "Printer & CCTV Solutions",
+              2000,
+            ]}
             speed={50}
             repeat={Infinity}
           />
         </h1>
 
         <p>
-          Laptop, Desktop, Printer & CCTV Sales and Services with Trusted
-          Support and Professional Solutions.
+          We provide trusted Laptop, Desktop, Printer and CCTV Sales & Services.
+          We also deal in all types of Laptop & Desktop Accessories, Printer
+          Repair and Cartidge Refilling with professional support and quality
+          solutions.
         </p>
 
         <div className="hero-buttons">
@@ -31,7 +41,7 @@ function Hero() {
             <button className="service-btn">Our Services</button>
           </a>
 
-          <a href="https://wa.me/917454949416">
+          <a href="https://wa.me/917454949416" target="_blank" rel="noreferrer">
             <button className="contact-btn">WhatsApp Now</button>
           </a>
         </div>

@@ -8,7 +8,9 @@ function Services() {
     {
       icon: <FaLaptop />,
       title: "Laptop Service",
-      desc: "Professional laptop repair and maintenance services.",
+
+      desc: "We provide trusted Laptop repair, maintenance and software support services.",
+
       image:
         "https://img3.exportersindia.com/product_images/bc-full/2019/5/6336649/laptop-repair-1557310767-4894209.jpeg",
     },
@@ -16,7 +18,9 @@ function Services() {
     {
       icon: <FaDesktop />,
       title: "Desktop Service",
-      desc: "Complete desktop setup, repair and upgrade solutions.",
+
+      desc: "Complete Desktop setup, upgrade and hardware troubleshooting solutions.",
+
       image:
         "https://5.imimg.com/data5/SELLER/Default/2021/1/FV/KA/HS/501956/desktop-repair-service-500x500.jpg",
     },
@@ -24,7 +28,9 @@ function Services() {
     {
       icon: <FaPrint />,
       title: "Printer Service",
-      desc: "Printer installation, repair and cartridge support.",
+
+      desc: "Printer Repair, Cartridge Refilling and installation services at affordable prices.",
+
       image:
         "https://content.jdmagicbox.com/comp/saharsa/f7/9999p6478.6478.220322002419.q2f7/catalogue/hp-and-epson-service-center-saharsa-saharsa-ho-saharsa-computer-printer-repair-and-services-gkj849zw95.jpg",
     },
@@ -32,7 +38,9 @@ function Services() {
     {
       icon: <FaVideo />,
       title: "CCTV Installation",
-      desc: "Secure CCTV installation and monitoring solutions.",
+
+      desc: "Professional CCTV installation and security monitoring solutions for homes and offices.",
+
       image:
         "https://www.sg-cctv.com/wp-content/uploads/2019/12/cctv-planning-installation-guide-for-buildings.jpg",
     },
